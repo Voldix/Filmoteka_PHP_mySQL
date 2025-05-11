@@ -117,20 +117,20 @@ if ($result = mysqli_query($link, $query)) {
                 ?>
 
                 <div class="form-group">
-                    <label class="label">Название фильма<input class="input" name="film" type="text" placeholder="Такси 2" 
-                    value="<?php echo isset($_POST["add-film"]) && !empty(trim($_POST["film"])) ? trim($_POST["film"]) : ""  ?>" /></label>
+                    <label class="label">Название фильма<input class="input" name="film" type="text" placeholder="Такси 2"
+                            value="<?php echo isset($_POST["add-film"]) && !empty(trim($_POST["film"])) ? trim($_POST["film"]) : ""  ?>" /></label>
                 </div>
                 <div class="row">
                     <div class="col">
                         <div class="form-group">
-                            <label class="label">Жанр<input class="input" name="type" type="text" placeholder="комедия" 
-                            value="<?php echo isset($_POST["add-film"]) && !empty(trim($_POST["type"])) ? trim($_POST["type"]) : ""  ?>" /></label>
+                            <label class="label">Жанр<input class="input" name="type" type="text" placeholder="комедия"
+                                    value="<?php echo isset($_POST["add-film"]) && !empty(trim($_POST["type"])) ? trim($_POST["type"]) : ""  ?>" /></label>
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-group">
-                            <label class="label">Год<input class="input" name="year" type="text" placeholder="2000" 
-                            value="<?php echo isset($_POST["add-film"]) && !empty(trim($_POST["year"])) ? trim($_POST["year"]) : ""  ?>"/></label>
+                            <label class="label">Год<input class="input" name="year" type="text" placeholder="2000"
+                                    value="<?php echo isset($_POST["add-film"]) && !empty(trim($_POST["year"])) ? trim($_POST["year"]) : ""  ?>" /></label>
                         </div>
                     </div>
                 </div>
