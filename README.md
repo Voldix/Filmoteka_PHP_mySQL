@@ -1,3 +1,3 @@
 # Одностраничный сайт коворкинга CoWorks
-![App Screenshot](/img/filmoteka.JPG)
+![App Screenshot](/img/filmoteka.png)
 ### 
